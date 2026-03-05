@@ -11,17 +11,12 @@ load_dotenv()
 
 # Model configurations
 MODELS = {
-    "llama-3.3-70b-versatile": {
+    "llama-3.1-8b-instant": {
         "provider": "groq",
         "cost_input": 0.00,
         "cost_output": 0.00,
     },
-    "llama-3.1-8b": {
-        "provider": "groq",
-        "cost_input": 0.00,
-        "cost_output": 0.00,
-    },
-    "gemini-2.0-flash": {
+    "gemini-3-flash-preview": {
         "provider": "google",
         "cost_input": 0.125,
         "cost_output": 0.375,
